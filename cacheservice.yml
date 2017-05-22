@@ -6,7 +6,7 @@ spring:
         name: cacheservice
     cloud:
       config:
-       uri: http://config:8888
+       uri: http://configserver:8888
     redis:
       host: 127.0.0.1
       port: 6379
