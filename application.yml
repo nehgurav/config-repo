@@ -1,8 +1,6 @@
 eureka:
     instance:
         prefer-ip-address: true
-        statusPageUrlPath: ${management.context-path}/info
-        healthCheckUrlPath: ${management.context-path}/health
     client:
         enabled: true
         healthcheck:
@@ -11,9 +9,3 @@ eureka:
         fetchRegistry: true
         serviceUrl:
             defaultZone: http://registry:8761/eureka/
-            
-management:
-    context-path: /management
-    health:
-        mail:
-            enabled: false
