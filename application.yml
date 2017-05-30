@@ -3,8 +3,6 @@ eureka:
         prefer-ip-address: true
     client:
         enabled: true
-        healthcheck:
-            enabled: true
         registerWithEureka: true
         fetchRegistry: true
         serviceUrl:
