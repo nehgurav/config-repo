@@ -2,8 +2,5 @@ eureka:
     instance:
         prefer-ip-address: true
     client:
-        enabled: true
-        registerWithEureka: true
-        fetchRegistry: true
         serviceUrl:
             defaultZone: http://registry:8761/eureka/
