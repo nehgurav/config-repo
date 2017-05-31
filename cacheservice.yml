@@ -3,7 +3,7 @@ server:
 
 spring:
     redis:
-      host: abc
+      host: redis
       port: 6379
 eureka:
     instance:
