@@ -3,8 +3,8 @@ server:
 
 spring:
     redis:
-      host: abc
-      port: 6379
+      host: redis
+      port: 6371
 eureka:
     instance:
         prefer-ip-address: true
